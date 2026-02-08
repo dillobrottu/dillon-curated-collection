@@ -1,0 +1,298 @@
+body {
+	border-top-style: double;
+	border-left-style: double;
+	border-right-style: double;
+	border-bottom-style: double;
+	border-color: #3730c4;
+	border-width: 25px;
+	}
+@media (width >= 480px) { 	
+nav {
+    width: 90%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: #3730c4;
+}
+nav .heading {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+	margin: 10px;
+}
+nav .heading a {
+	color: white;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+nav .heading a:hover {
+	background-color: #0066B1;
+	color: white;
+}
+nav ul {
+    display: flex;
+	flex-flow: column wrap;
+    list-style: none;
+	margin: 10px;
+}
+nav ul li {
+    padding: 6px 18px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+nav ul li a {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover {
+    background-color: #0066B1;
+}
+nav ul li a:hover {
+    color: white;
+}
+nav .sideMenuButton {
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    display: none;
+}
+.grid-container { 
+	display: flex;
+	flex-flow: column wrap;
+	gap: 10px;
+	background-color: #3730c4;
+	padding: 10px;
+}
+.grid-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.grid-container h1 {
+	font-size:50px;
+}
+.grid-container h2 {
+	font-size: 40px;
+}
+.grid-container a {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.4s ease;
+}
+.grid-container a:hover {
+	color: #3730c4;
+	text-decoration: underline;
+}
+}
+@media (width >= 1200px) { 
+	
+nav {
+    width: 90%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: #3730c4;
+}
+nav .heading {
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+	margin: 10px;
+}
+nav .heading a {
+	color: white;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+nav .heading a:hover {
+	background-color: #0066B1;
+	color: white;
+}
+nav ul {
+    display: flex;
+	flex-flow: row wrap;
+    list-style: none;
+	margin: 10px;
+}
+nav ul li {
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+nav ul li a {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+	border-radius: 10px;
+    color: white;
+}
+nav ul li:hover {
+    background-color: #0066B1;
+    color: white;
+}
+nav .sideMenuButton {
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    display: none;
+}
+
+.grid-container { 
+	display: grid;
+	grid-template-areas:
+		'intro intro intro'
+		'cat1 cat2 cat3'
+		'foot foot foot'
+		;
+	gap: 10px;
+	background-color: #3730c4;
+	padding: 10px;
+}
+.grid-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.grid-container h1 {
+	font-size:50px;
+}
+.grid-container h2 {
+	font-size: 40px;
+}
+.grid-container a {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.4s ease;
+}
+.grid-container a:hover {
+	color: #3730c4;
+	text-decoration: underline;
+}
+.intro { 
+	grid-area: intro; 
+	padding: 10px;
+}
+.intro p {
+	font-size:30px;
+}
+.intro a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.intro a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+	text-decoration: underline;
+}
+.cat1 { 
+	grid-area: cat1; 
+	padding: 10px;
+}
+.cat1 p {
+	font-size:30px;
+}
+.cat1 a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.cat1 a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+	text-decoration: underline;
+}
+.cat2 { 
+	grid-area: cat2; 
+	padding: 10px;
+}
+.cat2 p {
+	font-size:30px;
+}
+.cat2 a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.cat2 a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+	text-decoration: underline;
+}
+.cat3 { 
+	grid-area: cat3; 
+	padding: 10px;
+}
+.cat3 p {
+	font-size:30px;
+}
+.cat3 a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.cat3 a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+	text-decoration: underline;
+}
+.foot { 
+	grid-area: foot; 
+	padding: 10px;
+}
+.foot p {
+	font-size:30px;
+}
+.foot a {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.foot a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+	text-decoration: underline;
+}
+.github {
+    background-color: white;
+    color: #ffffff;
+    padding: 8px 8px;
+    border: 2px solid;
+	border-radius: 10px;
+	transition: 0.4s ease;
+}
+}

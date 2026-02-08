@@ -1,0 +1,98 @@
+@media (width >= 480px) {
+object {
+    width: 750px;
+    height: 700px;
+}
+.cat-container { 
+    margin: auto 0;
+	padding: 20px;
+	gap: 10px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	background-color: #3730c4;
+}
+.cat-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.cat-container h1 {
+	font-size:50px;
+}
+.cat-container h2 {
+	font-size: 40px;
+}
+.intro {
+	grid-area: intro;
+}
+.pdf {
+	grid-area: pdf;
+}
+.pdf a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.pdf a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+	text-decoration: underline;
+}
+.item2 {
+	grid-area: exer2;
+}
+}
+@media (width >= 1200px) {
+.cat-container { 
+    margin: auto 0;
+	padding: 20px;
+	gap: 10px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	background-color: #3730c4;
+}
+.cat-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.cat-container h1 {
+	font-size:50px;
+}
+.cat-container h2 {
+	font-size: 40px;
+}
+.intro {
+	grid-area: intro;
+}
+.pdf {
+	grid-area: pdf;
+}
+.pdf a {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: none;
+	transition: 0.2s ease;
+}
+.pdf a:hover {
+	transform: scale(150%);
+    background-color: #0066B1;
+	color: white;
+	text-decoration: underline;
+}
+.item2 {
+	grid-area: exer2;
+}
+object {
+    width: 1200px;
+    height: 800px;
+}
+}
