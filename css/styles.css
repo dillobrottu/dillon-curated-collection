@@ -16,7 +16,7 @@ nav {
     background-color: #3730c4;
 }
 nav .heading {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     color: white;
 	margin: 10px;
@@ -93,6 +93,14 @@ nav .sideMenuButton {
 	color: #3730c4;
 	text-decoration: underline;
 }
+.github {
+    background-color: white;
+    color: #ffffff;
+    padding: 8px 8px;
+    border: 2px solid;
+	border-radius: 10px;
+	transition: 0.4s ease;
+}
 }
 @media (width >= 1200px) { 
 	
@@ -105,7 +113,7 @@ nav {
     background-color: #3730c4;
 }
 nav .heading {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 700;
     color: white;
 	margin: 10px;
